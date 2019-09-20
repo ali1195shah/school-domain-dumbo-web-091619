@@ -22,7 +22,7 @@ class School
     @roster.select do |key, val|
       if key == grade
         val
-        # binding.pry
+        binding.pry
       end
     end
   end
