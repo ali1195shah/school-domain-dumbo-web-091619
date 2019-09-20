@@ -23,5 +23,6 @@ class School
       if key == grade
         key
       end
+    end
   end
 end
