@@ -21,7 +21,7 @@ class School
   def grade(grade)
     @roster.select do |key, val|
       if key == grade
-        @roster.value
+        @roster.values
         # binding.pry
       end
     end
