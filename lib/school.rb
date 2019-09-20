@@ -30,4 +30,11 @@ class School
   
   
   binding.pry
+  0
+  
+  
+  
+  
+  
+  
 end
