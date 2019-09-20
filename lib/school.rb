@@ -28,7 +28,7 @@ class School
   end
   
   def sort()
-    binding.pry
+    @roster.values.sort
   end
   
 end
