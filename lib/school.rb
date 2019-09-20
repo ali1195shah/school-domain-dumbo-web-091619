@@ -29,8 +29,9 @@ class School
   
   def sort()
     # @roster.values.sort
-    hash = Hash.new(0)
-    binding.pry
+    @roster.each do |k, v|
+      binding.pry
+    end
   end
   
 end
