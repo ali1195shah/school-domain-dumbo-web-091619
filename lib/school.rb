@@ -19,7 +19,7 @@ class School
   end
   
   def grade(grade)
-    @roster
+    binding.pry
   end
   
 end
