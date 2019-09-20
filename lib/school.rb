@@ -30,7 +30,7 @@ class School
   def sort()
     # @roster.values.sort
     hash = Hash.new(0)
-  binding.pry
+    binding.pry
   end
   
 end
