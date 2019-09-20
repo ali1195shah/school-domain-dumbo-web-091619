@@ -29,8 +29,8 @@ class School
   
   def sort()
     # @roster.values.sort
-    self.each do |k, v|
-      v.sort
+    @roster.each do |k, v|
+      v.sort!
     end
   end
   
