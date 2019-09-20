@@ -28,7 +28,9 @@ class School
   end
   
   def sort()
-    @roster.values.sort
+    # @roster.values.sort
+    hash = Hash.new(0)
+    
   end
   
 end
