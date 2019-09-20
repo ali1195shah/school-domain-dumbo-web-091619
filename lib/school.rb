@@ -19,7 +19,9 @@ class School
   end
   
   def grade(grade)
-    binding.pry
+    @roster.select do |key, val|
+      if key == grade
+        key
+      end
   end
-  
 end
