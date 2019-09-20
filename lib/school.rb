@@ -31,7 +31,6 @@ class School
     # @roster.values.sort
     @roster.each do |k, v|
       v.sort!
-      binding.pry
     end
   end
   
