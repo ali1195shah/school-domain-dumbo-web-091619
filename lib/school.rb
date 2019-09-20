@@ -27,9 +27,8 @@ class School
     end
   end
   
-  
-  
-  
-  
+  def sort()
+    binding.pry
+  end
   
 end
